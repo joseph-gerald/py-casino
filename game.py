@@ -7,7 +7,7 @@ class Bet():
         self.bet_return = bet_return
 
         self.balance = balance
-        self.bet_profit = bet_return > bet_return
+        self.win = bet_return > bet_amount
 
         self.chance = chance
         self.multiplier = multiplier
